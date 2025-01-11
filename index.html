@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR_Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    
+</head>
+<body>
+    <header>
+        <!-- Navbar -->
+    
+        <div class="navbar">
+            <div class = "navbar-all">
+                <i class="fa-solid fa-qrcode"></i>
+                QR Buddy  
+                          
+            </div>
+            <div class="navbar-ops">
+                <a href="index.html">Generator</a>
+                <a href="scanner.html">Scanner</a> 
+            </div>
+    
+        </div>  
+    </header>
+    <div class="container">
+        <p>Enter your text or url</p>
+        <input type="text"placeholder="Text or url" id="qrText">
+
+        <div id="imgBox">
+            <img src="" id="qrImage">
+        </div>
+        <button onclick="generateQR()">Generate</button>    
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR-Scanner</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <!-- Navbar -->
+    
+        <div class="navbar">
+            <div class = "navbar-all">
+                <i class="fa-solid fa-qrcode"></i>
+                QR Buddy  
+                          
+            </div>
+            <div class="navbar-ops">
+                <a href="index.html">Generator</a>
+                <a href="scanner.html">Scanner</a> 
+            </div>
+    
+        </div>  
+    </header>
+    <div class="container_scanner">
+        <h2>QR Code Scanner</h2>
+        <video id="preview" autoplay></video>
+        <p id="output"></p>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jsqr/1.4.0/jsQR.js"></script>
+    <script src="script.js"></script>
+    
+</body>
+</html>
